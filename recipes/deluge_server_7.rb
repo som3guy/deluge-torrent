@@ -41,7 +41,7 @@ services.each do |svc|
 end
 
 services.each do |svc|
-  service "#{svc}" do
+  service svc do
       action [ :enable, :start ]
   end
 end
