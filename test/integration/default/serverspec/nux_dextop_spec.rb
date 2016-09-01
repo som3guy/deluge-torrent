@@ -52,6 +52,6 @@ describe user('deluge') do
   it { should have_login_shell '/sbin/nologin' }
 end
 
-describe process("deluged") do
+describe process('deluged') do
   it { should be_running }
 end

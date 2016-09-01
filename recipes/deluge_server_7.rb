@@ -30,7 +30,7 @@ if node['deluge']['logs']['enabled']
   end
 end
 
-services = %w[deluged deluge-web]
+services = ['deluged', 'deluge-web']
 services.each do |svc|
   template "/etc/systemd/system/#{svc}.service" do
     source "#{svc}.service.erb"
@@ -42,7 +42,7 @@ end
 
 services.each do |svc|
   service svc do
-      action [ :enable, :start ]
+    action [:enable, :start]
   end
 end
 

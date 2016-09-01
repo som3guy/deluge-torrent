@@ -38,7 +38,7 @@ template '/etc/init.d/deluge-daemon' do
 end
 
 service 'deluge-daemon' do
-  action [ :enable, :start ]
+  action [:enable, :start]
 end
 
 # template '/var/lib/deluge/.config/deluge/web.conf' do

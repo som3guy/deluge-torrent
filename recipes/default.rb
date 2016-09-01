@@ -25,4 +25,3 @@ if node['deluge']['release'] == 7
 elsif node['deluge']['release'] == 6
   include_recipe 'deluge-torrent::deluge_server_6'
 end
-
