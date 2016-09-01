@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rubocop', '~> 0.33'
-gem 'serverspec', '~> 2.36'
+gem 'foodcritic', '~> 4.0'
+gem 'rspec', '~> 3.3'
+gem 'chefspec', '~> 4.3'
+gem 'chef-vault'
+gem 'chef', '~> 12.4'
 gem 'berkshelf', '~> 4.0'
