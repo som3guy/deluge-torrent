@@ -1,5 +1,7 @@
 deluge-torrent Cookbook
 =======================
+[![Build Status](https://travis-ci.org/som3guy/deluge-torrent.svg?branch=dev)](https://travis-ci.org/som3guy/deluge-torrent)
+
 TODO: Enter the cookbook description here.
 
 e.g.
