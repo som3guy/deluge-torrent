@@ -1,0 +1,14 @@
+DEPENDENCIES
+  deluge-torrent
+    path: .
+    metadata: true
+  yum
+  yum-epel
+
+GRAPH
+  deluge-torrent (0.1.0)
+    yum (~> 3.12.0)
+    yum-epel (~> 0.7.1)
+  yum (3.12.0)
+  yum-epel (0.7.1)
+    yum (>= 3.6.3)

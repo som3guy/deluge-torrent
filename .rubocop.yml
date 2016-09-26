@@ -1,0 +1,5 @@
+Style/NumericLiterals:
+  MinDigits: 6
+
+Metrics/LineLength:
+  Max: 177
